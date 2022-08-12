@@ -3,7 +3,6 @@ import serial
 import cv2
 import os
 
-# url = 'http://root:hirain.com@192.168.1.90/mjpg/video.mjpg?camera=1'
 url = 0
 ser = serial.Serial('COM5', '115200')
 cap1 = cv2.VideoCapture(url)
