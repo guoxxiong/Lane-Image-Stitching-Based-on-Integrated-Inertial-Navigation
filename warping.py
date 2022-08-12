@@ -30,7 +30,7 @@ def getMat():
     # width, height = 750, 750 #用以做透视变换，8格24.68
 
    ori_x,  ori_y = 120, 220
-    # ori_x, ori_y = 272, 0  # 这两行怎么确定的？
+    # ori_x, ori_y = 272, 0  
     #目标画布
     #dst = np.float32([[ori_x, ori_y], [ori_x - width, ori_y], [ori_x, ori_y - height], [ori_x - width, ori_y - height]])
     dst = np.float32([[ori_x, ori_y], [ori_x + width, ori_y], [ori_x, ori_y + height], [ori_x + width, ori_y + height]])
